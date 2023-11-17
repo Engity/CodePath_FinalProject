@@ -1,0 +1,143 @@
+.cardButton {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(155, 0, 0, 0.896) 5px 5px 3px;
+    box-sizing: border-box;
+    color: white;
+    display: inline-flex;
+
+    line-height: 1.25;
+    min-height: 30px;
+    padding: 15px;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    margin: 0 auto;
+}
+
+.cardButton:hover,
+.cardButton:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(155, 0, 0, 0.896) 3px 3px 5px;
+    text-shadow: rgba(155, 0, 0, 0.896) 3px 3px 5px;
+}
+
+.cardButton:hover {
+    transform: translateY(-5px);
+}
+
+.cardButton:active {
+    background-color: #c85000;
+    box-shadow: rgba(155, 0, 0, 0.896) 3px 3px 5px;
+    transform: translateY(0);
+}
+
+
+.PostDetail {
+    /* border-radius: 10%; */
+    /* background-color: rgba(0, 146, 0, 0.4); */
+    /* width: 1500px; */
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.mediaContainer{
+    max-width: 800px;
+    max-height: 400px;
+    margin: 0 auto;
+}
+.postMedia{
+    max-width: 800px;
+    max-height: 400px;
+    margin: 0 auto;
+    
+}
+
+.detailTable {
+    padding: 10px;
+    margin: 0 auto;
+    border-style: none;
+}
+
+.colHeader {
+    /* background-color: rgba(144, 154, 144, 0.68); */
+    border-radius: 10px;
+    font-size: var(--medium);
+    padding: 5px;
+    font-weight: bold;
+    width: 120px;
+    height: 50px;
+}
+
+.colData {
+    font-size: var(--small);
+    font-weight: light;
+    text-align: left;
+    padding: 5px;
+    width: 500px;
+}
+
+.colData input, textarea{
+    width: 99%;
+}
+
+.buttonContainer{
+    margin: 0 auto;
+
+    /* background-color: blue; */
+    /* width: 20%; */
+    /* align-items: center; */
+    display:flex;
+    justify-content: space-around;
+}
+
+.buttonContainer button{
+    margin: 0 auto;
+}
+
+.content{
+    height:500px;
+    overflow:scroll;
+    text-align: start;
+    text-overflow:clip;
+    resize: none;
+}
+
+.commentSectionContainer{
+    margin: 0 auto;
+    width: 1500px;
+    /* height: 600px; */
+    /* background-color: blue; */
+ 
+    padding: 5px;
+}
+
+.commentContainer{
+    resize:none;
+    overflow: scroll;
+    height: 400px;
+}
+.comment{
+    padding:5px;
+    margin: 15px auto; 
+    border-radius: 15px;
+    border-color: azure;
+    border-style:solid;
+    height: 100px;
+}
+.comment .commentContent{
+    font-size:var(--small);
+
+}
+.comment .commentCreatedTime{
+    font-size: var(--tiny);
+    /* background-color:blue; */
+}
+

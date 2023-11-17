@@ -1,0 +1,57 @@
+#root {
+    /* background-image: url('./assets/images/background3.jpg'); */
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100%;
+    height: 100%;
+    --tiny: 10px;
+    --small: 15px;
+    --medium: 20px;
+    --large: 35px;
+    --verylarge: 50px;
+}
+
+
+h1 {
+    font-size: 4vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px rgba(255, 0, 0, 0.8);
+}
+
+h2 {
+    font-size: 2vh;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 10px red;
+}
+
+.elemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+.ChartAndFilterContainer {
+    display: flex;
+
+    width: 80%;
+    /* background: blue; */
+    margin: 0 auto;
+}
+
+.FilterSection {
+    /* background-color: blue; */
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10%;
+    /* margin: 0 auto; */
+    width: 40%;
+    padding: 2%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: column;
+    justify-content: center;
+    position: left;
+}

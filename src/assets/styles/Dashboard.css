@@ -1,0 +1,71 @@
+.Dashboard {
+    /* margin: 0 auto; */
+    /* padding: 20px; */
+    /* width:1200px; */
+    background-color: #ff9500;
+    /* border-radius: 20px; */
+    padding: 0px;
+    overflow:hidden;
+    height: 50px;
+    /* display:flex; */
+    
+}
+
+nav {
+    background-color: #270141;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    /* margin-right: 0px; */
+}
+
+li {
+    margin-right: 0px;
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+.dashboardButton {
+    background-color: transparent;
+    border: none;
+    /* color: #fff; */
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 20px;
+    height: 47px;
+}
+
+.dashboardButton:focus {
+    outline: none;
+}
+
+.dashboardButton:hover {
+    background-color: rgb(92, 5, 173);
+    box-shadow: 0 0 30px rgb(134, 130, 130);
+}
+
+/* Active Tab */
+.active {
+    border-bottom: 5px solid #ffffff;
+}
+
+/* .dashboardButton{
+    background-color: blue;
+} */
+
+#Title{
+    position:absolute;
+    right: 50px;
+    top: 0px;
+    margin: 0 auto;
+    font-size: 40px;    
+}
