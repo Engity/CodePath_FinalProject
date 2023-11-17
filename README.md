@@ -1,10 +1,9 @@
-# Web Development Project 7 - Crewmates
+# Web Development Project - Course Talks
 
 Submitted by: Thomas Nguyen
 
-This web app: Create and manage crewmates.
-Time spent: 10 hours spent in total
-
+This web app: Create and manage posts discussing about courses at a school.
+Time spent: 14 hours spent in total
 
 ## Required Features
 
@@ -32,16 +31,7 @@ The following **optional** features are implemented:
 - [ ] Users can set flags while creating a post. Then users can filter posts by flags on the home feed.
 - [ ] Users can upload images directly from their local machine as an image file
 - [ ] Display a loading animation whenever data is being fetched
-
--Make sure that your form has fields for a title or name and another field for an image URL. 
-Your homefeed must display all the posts. Similar to this unit, please make sure that the latest post is on top. 
--The post must have a timestamp, title, and number of upvotes. Make sure that at least these three are in your website.
--Make sure that details of the post can be shown when a post is clicked from the home page. Imagine this being similar to Twitter where you will click a post from the feed and details are shown. The details page must have a unique URL too. Similar with your previous assignments where the details view have a unique url for that particular post. 
--There must be an option to sort the posts by upvotes or by time posted. You can implement this with a button that allows sorting. 
--The details view must be on a separate page where it will allow the user to leave comments underneath the post. 
--The post have an upvote button. And when clicked, the number of votes must increase. 
--Since CRUD operations are part of this course, make sure that you also implemented these. One of the requirements is to make sure that you create, edit and delete a post. 
-
+ 
 The following **additional** features are implemented:
 
 The following **additional** features are implemented:
