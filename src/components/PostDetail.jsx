@@ -174,7 +174,7 @@ const PostDetail = ({ createMode }) => {
         } catch (_) {
             return false;
         }
-        console.log(tempURL);
+      
         const protocolComp = tempURL.protocol.localeCompare("http:") == 0
             || tempURL.protocol.localeCompare("https:") == 0;
         if (protocolComp) {
@@ -189,6 +189,8 @@ const PostDetail = ({ createMode }) => {
         }
 
     }
+
+    console.log(currentData.secretKey);
 
     return <div className='PostDetail'>
         {title}
@@ -232,6 +234,7 @@ const PostDetail = ({ createMode }) => {
                         <input className={"data secretKey"}
                             type='text' defaultValue={''}
                             ref={secretKeyRef}
+                            onChange={(e) => { updateData(e, "secretKey") }}
                         />
                     </th>
                 </tr>
@@ -254,7 +257,7 @@ const PostDetail = ({ createMode }) => {
                     </th>
                     <th className="colData" >
 
-                        <textarea className={"data content"} onChange={(e) => { updateData(e, "content") }}>
+                        <textarea className={"data content"} defaultValue={currentData.content} onChange={(e) => { updateData(e, "content") }}>
 
                         </textarea>
                     </th>
